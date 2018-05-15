@@ -1,0 +1,2 @@
+hildon connectivity metapackage
+===============================

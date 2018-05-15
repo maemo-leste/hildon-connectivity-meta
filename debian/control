@@ -1,0 +1,17 @@
+Source: hildon-connectivity-meta
+Section: misc
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: hildon-connectivity-meta
+Architecture: all
+Depends: ${shlibs:Depends},
+ icd2,
+ connui-conndlgs,
+ connui-conndlgs-internet,
+ connui-iapsettings,
+ connui-iapsettings-wlan,
+ connui-statusbar-internet,
+Description: Metapackage for installing hildon connui and its dependencies.
