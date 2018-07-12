@@ -9,6 +9,7 @@ Package: hildon-connectivity-meta
 Architecture: all
 Depends: ${shlibs:Depends},
  icd2,
+ libicd-network-wpasupplicant,
  connui-conndlgs,
  connui-conndlgs-internet,
  connui-iapsettings,
