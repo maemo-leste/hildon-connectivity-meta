@@ -5,15 +5,31 @@ Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.4
 
-Package: hildon-connectivity-meta
+Package: hildon-connectivity-base
 Architecture: all
 Depends: ${shlibs:Depends},
  icd2,
- libicd-network-wpasupplicant,
  connui-conndlgs,
  connui-conndlgs-internet,
  connui-iapsettings,
- connui-iapsettings-wlan,
  connui-statusbar-internet,
- connui-conndlgs-wlan,
 Description: Metapackage for installing hildon connui and its dependencies.
+
+Package: hildon-connectivity-wlan
+Architecture: all
+Depends: ${shlibs:Depends},
+ libicd-network-wpasupplicant,
+ connui-iapsettings-wlan,
+ connui-conndlgs-wlan,
+Description: Metapackage for installing Hildon Wlan connui and its dependencies.
+
+Package: hildon-connectivity-mobile
+Architecture: all
+Depends: ${shlibs:Depends},
+ ofono,
+ connui-iapsettings-gprs,
+ connui-statusbar-cellular,
+ libconnui-cellular,
+ connui-home-cellular,
+ connui-cellular-settings,
+Description: Metapackage for installing Hildon Mobile connui and its dependencies.
