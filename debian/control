@@ -32,4 +32,5 @@ Depends: ${shlibs:Depends},
  libconnui-cellular,
  connui-home-cellular,
  connui-cellular-settings,
+ connui-conndlgs-cellular,
 Description: Metapackage for installing Hildon Mobile connui and its dependencies.
