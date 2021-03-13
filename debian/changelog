@@ -1,3 +1,12 @@
+hildon-connectivity-meta (1.2) unstable; urgency=medium
+
+  * Add hildon-connectivity-location.
+  * Add GPL-3 license.
+  * debian/control: add connui-conndlgs-cellular
+  * Separate packaging into base/wlan/mobile.
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 13 Mar 2021 21:05:05 +0100
+
 hildon-connectivity-meta (1.1) unstable; urgency=medium
 
   * Add conndlgs.
