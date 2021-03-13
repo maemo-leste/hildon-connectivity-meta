@@ -2,8 +2,8 @@ Source: hildon-connectivity-meta
 Section: misc
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.3.0
 
 Package: hildon-connectivity-base
 Architecture: all
@@ -34,3 +34,13 @@ Depends: ${shlibs:Depends},
  connui-cellular-settings,
  connui-conndlgs-cellular,
 Description: Metapackage for installing Hildon Mobile connui and its dependencies.
+
+Package: hildon-connectivity-location
+Architecture: all
+Depends: ${shlibs:Depends},
+ hildon-connectivity-mobile,
+ location-ui,
+ location-daemon,
+ location-control,
+ liblocation0,
+Description: Metapackage for installing Leste Location services.
