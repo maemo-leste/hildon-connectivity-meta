@@ -1,3 +1,9 @@
+hildon-connectivity-meta (1.3) unstable; urgency=medium
+
+  * Change dep from hildon-connectivity-mobile to ofono.
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 02 May 2021 15:21:09 +0200
+
 hildon-connectivity-meta (1.2) unstable; urgency=medium
 
   * Add hildon-connectivity-location.
