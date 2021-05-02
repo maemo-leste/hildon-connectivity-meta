@@ -38,7 +38,7 @@ Description: Metapackage for installing Hildon Mobile connui and its dependencie
 Package: hildon-connectivity-location
 Architecture: all
 Depends: ${shlibs:Depends},
- hildon-connectivity-mobile,
+ ofono,
  location-ui,
  location-daemon,
  location-control,
