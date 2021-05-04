@@ -1,3 +1,9 @@
+hildon-connectivity-meta (1.4) unstable; urgency=medium
+
+  * Add location-status as a hildon-connectivity-location dependency.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 04 May 2021 11:22:00 +0200
+
 hildon-connectivity-meta (1.3) unstable; urgency=medium
 
   * Change dep from hildon-connectivity-mobile to ofono.
