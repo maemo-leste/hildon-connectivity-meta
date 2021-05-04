@@ -42,5 +42,6 @@ Depends: ${shlibs:Depends},
  location-ui,
  location-daemon,
  location-control,
+ location-status,
  liblocation0,
 Description: Metapackage for installing Leste Location services.
