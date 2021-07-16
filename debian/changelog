@@ -1,3 +1,9 @@
+hildon-connectivity-meta (1.5) unstable; urgency=medium
+
+  * wlan: Add dbus service package dependency.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 16 Jul 2021 15:18:30 +0200
+
 hildon-connectivity-meta (1.4) unstable; urgency=medium
 
   * Add location-status as a hildon-connectivity-location dependency.
