@@ -28,6 +28,7 @@ Package: hildon-connectivity-mobile
 Architecture: all
 Depends: ${shlibs:Depends},
  ofono,
+ sphone,
  connui-iapsettings-gprs,
  connui-statusbar-cellular,
  libconnui-cellular,
