@@ -35,6 +35,8 @@ Depends: ${shlibs:Depends},
  connui-home-cellular,
  connui-cellular-settings,
  connui-conndlgs-cellular,
+ libicd-network-ofono,
+ mobile-broadband-provider-info,
 Description: Metapackage for installing Hildon Mobile connui and its dependencies.
 
 Package: hildon-connectivity-location
