@@ -1,3 +1,9 @@
+hildon-connectivity-meta (1.7) unstable; urgency=medium
+
+  * mobile: Add libicd-network-ofono and mobile-broadband-provider-info
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 10 May 2022 18:07:33 +0200
+
 hildon-connectivity-meta (1.6) unstable; urgency=medium
 
   * wlan: Add sphone and conversations
