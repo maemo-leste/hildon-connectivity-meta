@@ -46,7 +46,10 @@ Depends: ${shlibs:Depends}
  rtcom-accounts-plugins,
  sphone,
  conversations,
- maemo-ringtones-mr0
+ maemo-ringtones-mr0,
+ telepathy-gabble,
+ telepathy-idle,
+ telepathy-haze,
 Description: Meta package for RTCom components
 
 Package: hildon-connectivity-location
