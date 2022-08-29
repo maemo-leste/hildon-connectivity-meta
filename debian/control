@@ -27,8 +27,7 @@ Package: hildon-connectivity-mobile
 Architecture: all
 Depends: ${shlibs:Depends},
  ofono,
- sphone,
- conversations,
+ cellulard,
  connui-iapsettings-gprs,
  connui-statusbar-cellular,
  libconnui-cellular,
@@ -38,6 +37,23 @@ Depends: ${shlibs:Depends},
  libicd-network-ofono,
  mobile-broadband-provider-info,
 Description: Metapackage for installing Hildon Mobile connui and its dependencies.
+
+Package: hildon-connectivity-rtcom
+Architecture: all
+Depends: ${shlibs:Depends}
+ rtcom-presence-ui,
+ rtcom-accounts-ui,
+ rtcom-accounts-plugins,
+ sphone,
+ conversations,
+ maemo-ringtones-mr0
+Description: Meta package for RTCom components
+
+Package: hildon-connectivity-rtcom-extra
+Architecture: all
+Depends: ${shlibs:Depends}
+ telepathy-haze,
+Description: Meta package for extra RTCom components
 
 Package: hildon-connectivity-location
 Architecture: all
