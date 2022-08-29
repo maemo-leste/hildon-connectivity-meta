@@ -49,12 +49,6 @@ Depends: ${shlibs:Depends}
  maemo-ringtones-mr0
 Description: Meta package for RTCom components
 
-Package: hildon-connectivity-rtcom-extra
-Architecture: all
-Depends: ${shlibs:Depends}
- telepathy-haze,
-Description: Meta package for extra RTCom components
-
 Package: hildon-connectivity-location
 Architecture: all
 Depends: ${shlibs:Depends},
