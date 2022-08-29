@@ -1,3 +1,10 @@
+hildon-connectivity-meta (1.8) unstable; urgency=medium
+
+  * mobile: add cellulard
+  * rtcom: initial version
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 29 Aug 2022 12:59:15 +0200
+
 hildon-connectivity-meta (1.7) unstable; urgency=medium
 
   * mobile: Add libicd-network-ofono and mobile-broadband-provider-info
