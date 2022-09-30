@@ -1,3 +1,9 @@
+hildon-connectivity-meta (1.10) unstable; urgency=medium
+
+  * rtcom: add iphbd
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 30 Sep 2022 11:02:16 +0200
+
 hildon-connectivity-meta (1.9) unstable; urgency=medium
 
   * rtcom: add some protocols
