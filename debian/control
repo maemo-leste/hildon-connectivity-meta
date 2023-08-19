@@ -50,7 +50,6 @@ Depends: ${shlibs:Depends}
  telepathy-gabble,
  telepathy-idle,
  telepathy-haze,
- iphbd,
 Description: Meta package for RTCom components
 
 Package: hildon-connectivity-location
